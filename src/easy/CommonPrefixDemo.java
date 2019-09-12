@@ -77,7 +77,7 @@ public class CommonPrefixDemo {
     }
 
     //=================solution_4=================
-    //ATTENTION: Divide & Conquer
+    //ATTENTION: BST solution
     //二叉树解法
     public static String longestCommonPrefix_4(String[] strs){
         return "";
