@@ -77,12 +77,10 @@ public class CommonPrefixDemo {
     }
 
     //=================solution_4=================
-    //ATTENTION: BST solution
-    //二叉树解法
-    //二叉树解法就是将最短的str分成两个部分（作为树的两个子节点），然后从左节点开始（优先左节点开始）找其他str是否有相同的部分，如果有，再去右节点找，如果没有，将左节点分开，循环
-    //然而标准二叉树解法并不是像上面那样子。。蛋疼
+    //ATTENTION: BS solution
+    //二分查找解法
 
-    //这是答案的二叉树写法：
+    //这是答案的二分查找写法：
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0)
             return "";
