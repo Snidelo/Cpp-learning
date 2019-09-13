@@ -5,8 +5,8 @@ package easy;
  */
 public class CommonPrefixDemo {
     public static void main(String[] args){
-        String[] s = {"asdf", "asdfhgjk"};
-        System.out.println(s[0].substring(0,1));
+        String[] s = {"flower","flow","flight"};
+        System.out.println(longestCommonPrefix_3(s));
     }
 
     //=================solution_1=================
@@ -53,7 +53,7 @@ public class CommonPrefixDemo {
     public static String longestCommonPrefix_3(String[] strs){
         if(strs == null || strs.length == 0)
             return "";
-        return divide(strs,0,strs.length);
+        return divide(strs,0,strs.length - 1);
     }
     private static String divide(String[] strs, int left, int right){
         int mid = (left + right) / 2;
@@ -79,8 +79,34 @@ public class CommonPrefixDemo {
     //=================solution_4=================
     //ATTENTION: BST solution
     //二叉树解法
-    public static String longestCommonPrefix_4(String[] strs){
-        return "";
+    //二叉树解法就是将最短的str分成两个部分（作为树的两个子节点），然后从左节点开始（优先左节点开始）找其他str是否有相同的部分，如果有，再去右节点找，如果没有，将左节点分开，循环
+    //然而标准二叉树解法并不是像上面那样子。。蛋疼
+
+    //这是答案的二叉树写法：
+    public String longestCommonPrefix(String[] strs) {
+        if (strs == null || strs.length == 0)
+            return "";
+        int minLen = Integer.MAX_VALUE;
+        for (String str : strs)
+            minLen = Math.min(minLen, str.length());
+        int low = 1;
+        int high = minLen;
+        while (low <= high) {
+            int middle = (low + high) / 2;
+            if (isCommonPrefix(strs, middle))
+                low = middle + 1;
+            else
+                high = middle - 1;
+        }
+        return strs[0].substring(0, (low + high) / 2);
+    }
+
+    private boolean isCommonPrefix(String[] strs, int len){
+        String str1 = strs[0].substring(0,len);
+        for (int i = 1; i < strs.length; i++)
+            if (!strs[i].startsWith(str1))
+                return false;
+        return true;
     }
 
 }
