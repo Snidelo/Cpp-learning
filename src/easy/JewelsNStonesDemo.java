@@ -27,6 +27,8 @@ public class JewelsNStonesDemo {
     //discuss sector中的一个答案，因为固定的'a' - 'z', 'A' - 'Z' 对应了52个ASCII码，中间有6个符号，总共58个组成了连续的65-123的ASCII码
     //检索J，在对应的字符位置自加，代表对应的字符是jewel
     //检索S，如果对应的字符是jewel，则sum会加上1，否则加0;
+
+    //显然这段代码的时间复杂度是O(S+N)(两个循环)，空间复杂度为O(1)，创建了一个常数长度的数组
     public static int JewelNStone_2(String J, String S){
         int[] stoneNum = new int[58];
         for (char stone : J.toCharArray()) {
