@@ -43,4 +43,34 @@ public class JewelsNStonesDemo {
         return sum;
     }
 
+    //=====================solution_3=======================
+    //不知道为什么这段代码是最快的，和solution_2一样的思想
+    public static int JewelNStone_3(String J, String S){
+        boolean[] map = new boolean[52];
+
+        for(char c : J.toCharArray()){
+            if(c >= 'a' && c <= 'z'){
+                map[c - 'a'] = true;
+            } else {
+                map[c - 'A' + 26] = true;
+            }
+        }
+
+        int count = 0;
+
+        for(char c : S.toCharArray()){
+            if(c >= 'a' && c <= 'z'){
+                if(map[c - 'a']){
+                    count++;
+                }
+            } else {
+                if(map[c - 'A' + 26]){
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+
+
 }
