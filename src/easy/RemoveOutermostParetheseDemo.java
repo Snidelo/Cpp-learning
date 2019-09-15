@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class RemoveOutermostParetheseDemo {
     public static void main(String[] args){
-        System.out.println(new RemoveOutermostParetheseDemo().remove("(  () () )  (  ()  )  ( () (())  )"));
+        System.out.println(new RemoveOutermostParetheseDemo().remove_1("(()())(())(()(()))"));
     }
 //    public String remove(String S){
 //        char[] C = S.toCharArray();
@@ -40,5 +40,24 @@ public class RemoveOutermostParetheseDemo {
             if (c == ')' && opened-- > 1) s.append(c);
         }
         return s.toString();
+    }
+
+    //=======solution_1=========
+    //同样是solution_1，只是换了种判断方式
+    public String remove_1(String S){
+        int open = 0;
+        StringBuilder sb = new StringBuilder();
+        for(char c : S.toCharArray()){
+            if(c == '('){
+                if(++open != 1){//说明此时括号是开的（等于0的时候括号是闭合的）
+                    sb.append(c);
+                }
+            }
+            if(c == ')'){
+                if(--open != 0)
+                    sb.append(c);
+            }
+        }
+        return sb.toString();
     }
 }
