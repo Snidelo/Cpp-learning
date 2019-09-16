@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02430cd8-33b6-4225-a16d-e8f4c8d0c3c4" name="Default Changelist" comment="" />
+    <list default="true" id="02430cd8-33b6-4225-a16d-e8f4c8d0c3c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/easy/N_RepeatedElementDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,76 +18,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/RangeSumofBSTDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/easy/SortArrayByParityDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="53" column="9" selection-start-line="51" selection-start-column="46" selection-end-line="53" selection-end-column="9" />
+            <state relative-caret-position="505">
+              <caret line="112" column="23" lean-forward="true" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/ToLowerCaseDemo.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/N_RepeatedElementDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/UniqueMorseCodeWordsDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            <state relative-caret-position="425">
+              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#342#360#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/RemoveOutermostParetheseDemo.java">
+        <entry file="jar://E:/software/JAVA/jdk1.8.0_211/src.zip!/java/util/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/BigCountriesDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/FlippingImageDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/easy/SortArrayByParityDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="119" column="24" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/JewelsNStonesDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+            <state relative-caret-position="303">
+              <caret line="1054" column="13" selection-start-line="1054" selection-start-column="13" selection-end-line="1054" selection-end-column="13" />
+              <folding>
+                <element signature="e#23630#23631#0" expanded="true" />
+                <element signature="e#23684#23685#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/easy/BigCountriesDemo.java" />
         <option value="$PROJECT_DIR$/src/easy/FlippingImageDemo.java" />
         <option value="$PROJECT_DIR$/src/easy/SortArrayByParityDemo.java" />
+        <option value="$PROJECT_DIR$/src/easy/N_RepeatedElementDemo.java" />
       </list>
     </option>
   </component>
@@ -179,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortArrayByParityDemo">
+  <component name="RunManager" selected="Application.N_RepeatedElementDemo">
     <configuration name="FlippingImageDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.FlippingImageDemo" />
       <module name="LeetCodes" />
@@ -193,8 +157,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JewelsNStonesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.JewelsNStonesDemo" />
+    <configuration name="N_RepeatedElementDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.N_RepeatedElementDemo" />
       <module name="LeetCodes" />
       <extension name="coverage">
         <pattern>
@@ -247,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.N_RepeatedElementDemo" />
         <item itemvalue="Application.SortArrayByParityDemo" />
         <item itemvalue="Application.FlippingImageDemo" />
         <item itemvalue="Application.RemoveOutermostParetheseDemo" />
         <item itemvalue="Application.ToLowerCaseDemo" />
-        <item itemvalue="Application.JewelsNStonesDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +246,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3283582" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6044776" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26332623" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -314,17 +278,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/hard.java" />
-    <entry file="jar://E:/software/JAVA/jdk1.8.0_211/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="564" column="40" lean-forward="true" selection-start-line="564" selection-start-column="40" selection-end-line="564" selection-end-column="40" />
-          <folding>
-            <element signature="e#23630#23631#0" expanded="true" />
-            <element signature="e#23684#23685#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/TwoSumDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -454,8 +407,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/SortArrayByParityDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="119" column="24" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
+        <state relative-caret-position="505">
+          <caret line="112" column="23" lean-forward="true" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/software/JAVA/jdk1.8.0_211/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="1054" column="13" selection-start-line="1054" selection-start-column="13" selection-end-line="1054" selection-end-column="13" />
+          <folding>
+            <element signature="e#23630#23631#0" expanded="true" />
+            <element signature="e#23684#23685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/N_RepeatedElementDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#342#360#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
