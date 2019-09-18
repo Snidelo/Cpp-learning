@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02430cd8-33b6-4225-a16d-e8f4c8d0c3c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/ArrayPartitionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/RemoveDuplicatesfromSortArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium/MaxIncreaseToKeepCitySkylineDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodes/easy/PeakIndexInMountainArrayDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodes/easy/PeakIndexInMountainArrayDemo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/RemoveDuplicatesfromSortArrayDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="38">
+              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/medium/MaxIncreaseToKeepCitySkylineDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="132" lean-forward="true" selection-start-line="6" selection-start-column="132" selection-end-line="6" selection-end-column="132" />
             </state>
           </provider>
         </entry>
@@ -75,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/easy/PeakIndexInMountainArrayDemo.java" />
         <option value="$PROJECT_DIR$/src/easy/ArrayPartitionDemo.java" />
         <option value="$PROJECT_DIR$/src/easy/RemoveDuplicatesfromSortArrayDemo.java" />
+        <option value="$PROJECT_DIR$/src/medium/MaxIncreaseToKeepCitySkylineDemo.java" />
       </list>
     </option>
   </component>
@@ -108,7 +116,7 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCodes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayPartitionDemo">
+  <component name="RunManager" selected="Application.MaxIncreaseToKeepCitySkylineDemo">
     <configuration name="ArrayPartitionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.ArrayPartitionDemo" />
       <module name="LeetCodes" />
@@ -152,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N_RepeatedElementDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.N_RepeatedElementDemo" />
+    <configuration name="MaxIncreaseToKeepCitySkylineDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.MaxIncreaseToKeepCitySkylineDemo" />
       <module name="LeetCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxIncreaseToKeepCitySkylineDemo" />
         <item itemvalue="Application.ArrayPartitionDemo" />
         <item itemvalue="Application.PeakIndexInMountainArrayDemo" />
         <item itemvalue="Application.SelfDividingNumbersDemo" />
         <item itemvalue="Application.RobottoOrigin" />
-        <item itemvalue="Application.N_RepeatedElementDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -496,8 +504,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/RemoveDuplicatesfromSortArrayDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="38">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/MaxIncreaseToKeepCitySkylineDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="132" lean-forward="true" selection-start-line="6" selection-start-column="132" selection-end-line="6" selection-end-column="132" />
         </state>
       </provider>
     </entry>
