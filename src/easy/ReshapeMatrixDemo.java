@@ -36,6 +36,7 @@ public class ReshapeMatrixDemo {
         for (int i=0;i<r*c;i++)
             res[i/c][i%c] = nums[i/m][i%m];
         return res;
+        String a;
     }
 
     //============solution_3=================
