@@ -1,7 +1,5 @@
 package easy;
 
-import org.w3c.dom.NodeList;
-
 public class ReverseLinkedListDemo {
 
 
@@ -47,6 +45,16 @@ public class ReverseLinkedListDemo {
             tempHead = node.next;
         }
         node.next.next = node;
+    }
+
+
+    //=======solution_2========
+    public ListNode solution_2(ListNode head) {
+        if (head == null || head.next == null) return head;
+        ListNode p = solution_2(head.next);
+        head.next.next = head;
+        head.next = null;
+        return p;
     }
 }
 
