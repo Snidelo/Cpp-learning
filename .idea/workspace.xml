@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02430cd8-33b6-4225-a16d-e8f4c8d0c3c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/easy/FairCandySwapDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/ReverseLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/ReverseLinkedListDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/ReverseLinkedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+            <state relative-caret-position="167">
+              <caret line="33" column="88" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/FairCandySwapDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/easy/ReshapeMatrixDemo.java" />
         <option value="$PROJECT_DIR$/src/easy/LargestPerimeterTriangleDemo.java" />
         <option value="$PROJECT_DIR$/src/easy/ReverseLinkedListDemo.java" />
+        <option value="$PROJECT_DIR$/src/easy/FairCandySwapDemo.java" />
       </list>
     </option>
   </component>
@@ -151,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseLinkedListDemo">
+  <component name="RunManager" selected="Application.FairCandySwapDemo">
     <configuration name="DIStringMatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.DIStringMatchDemo" />
       <module name="LeetCodes" />
@@ -165,8 +179,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestPerimeterTriangleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.LargestPerimeterTriangleDemo" />
+    <configuration name="FairCandySwapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.FairCandySwapDemo" />
       <module name="LeetCodes" />
       <extension name="coverage">
         <pattern>
@@ -178,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxIncreaseToKeepCitySkylineDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.MaxIncreaseToKeepCitySkylineDemo" />
+    <configuration name="LargestPerimeterTriangleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.LargestPerimeterTriangleDemo" />
       <module name="LeetCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FairCandySwapDemo" />
         <item itemvalue="Application.ReverseLinkedListDemo" />
         <item itemvalue="Application.LargestPerimeterTriangleDemo" />
         <item itemvalue="Application.DIStringMatchDemo" />
         <item itemvalue="Application.NondecreasingArrayDemo" />
-        <item itemvalue="Application.MaxIncreaseToKeepCitySkylineDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +272,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.42110875" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.42110875" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32942432" />
@@ -287,6 +301,12 @@
           <line>21</line>
           <properties />
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/FairCandySwapDemo.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -610,8 +630,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/ReverseLinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        <state relative-caret-position="167">
+          <caret line="33" column="88" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/FairCandySwapDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
