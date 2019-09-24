@@ -25,13 +25,13 @@ public class ReverseLinkedListDemo {
 
     //=========solution_1==========
     //recursion
-    private ListNode tempHead = null;//这个一定得写在外面
+    private ListNode tempHead = null;//ATTENTION 这个一定得写在外面,因为递归的时候会把当前的状态压入栈，如果递归结束，修改了某些栈中的变量，那么回到当前位置的时候，栈中的变量修改前的值会覆盖修改后的值
     public ListNode solution_1(ListNode head){
 
         if(head == null || head.next == null){
             return head;
         }else{
-            //ListNode tempHead = null;  recusion(head, tempHead)这是不行的在最后一次递归修改了tempHead之后，上一层递归又会为空，但是讲道理不应该呀
+            //ListNode tempHead = null;  recusion(head, tempHead)这是不行的在最后一次递归修改了tempHead之后，上一层递归又会为空，解释见上
             recursion(head);
             head.next = null;//不要忘记把第一个结点的下一个结点置null，否则会形成一个环
             return tempHead;
