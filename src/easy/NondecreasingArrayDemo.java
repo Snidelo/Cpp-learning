@@ -1,5 +1,6 @@
 package easy;
 
+//#665
 public class NondecreasingArrayDemo {
 
     //brut人force
