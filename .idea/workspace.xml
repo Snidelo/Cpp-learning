@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bad70abe-6cbc-4c1c-afa6-719b99ed66a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/SpiralMatrix3Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodes/META-INF/LeetCodes.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodes/easy/FairCandySwapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodes/easy/FairCandySwapDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodes/easy/NondecreasingArrayDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodes/easy/NondecreasingArrayDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/TwoCitySchedulingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/TwoCitySchedulingDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RbQzUsjF1RSa6laDymf7FPAGPx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -46,7 +45,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SpiralMatrix3Demo">
+    <configuration name="SpiralMatrix3Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.SpiralMatrix3Demo" />
+      <module name="LeetCodes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoCitySchedulingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.TwoCitySchedulingDemo" />
       <module name="LeetCodes" />
@@ -62,6 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpiralMatrix3Demo" />
         <item itemvalue="Application.TwoCitySchedulingDemo" />
       </list>
     </recent_temporary>
@@ -76,7 +89,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569933577598</updated>
-      <workItem from="1569933580678" duration="2688000" />
+      <workItem from="1569933580678" duration="5484000" />
+      <workItem from="1569996989968" duration="7370000" />
     </task>
     <servers />
   </component>
@@ -88,7 +102,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -98,14 +114,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/TwoCitySchedulingDemo.java</url>
-          <line>46</line>
+          <url>file://$PROJECT_DIR$/src/easy/SpiralMatrix3Demo.java</url>
+          <line>45</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/TwoCitySchedulingDemo.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
