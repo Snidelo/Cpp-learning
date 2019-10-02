@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bad70abe-6cbc-4c1c-afa6-719b99ed66a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/SpiralMatrix3Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/ProjectArea3DDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569933577598</updated>
       <workItem from="1569933580678" duration="5484000" />
-      <workItem from="1569996989968" duration="7688000" />
+      <workItem from="1569996989968" duration="9708000" />
     </task>
     <servers />
   </component>
