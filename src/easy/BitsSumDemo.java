@@ -18,4 +18,15 @@ public class BitsSumDemo {
 
         return ans;
     }
+
+    //=====solution_2=======
+    //同样的,利用前一个数的信息//
+    //TODO:时间关系,没看懂,下次再看
+    public int[] solution_2(int num){
+        int[] res = new int[num + 1];
+        for (int i = 1; i <= num; ++i) {
+            res[i] = res[i >> 1] + (i & 1);
+        }
+        return res;
+    }
 }
