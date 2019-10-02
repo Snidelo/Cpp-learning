@@ -90,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569933577598</updated>
       <workItem from="1569933580678" duration="5484000" />
-      <workItem from="1569996989968" duration="7370000" />
+      <workItem from="1569996989968" duration="7688000" />
     </task>
     <servers />
   </component>
@@ -109,16 +109,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/SpiralMatrix3Demo.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
