@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bad70abe-6cbc-4c1c-afa6-719b99ed66a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/easy/BitsSumDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/BitsSumDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium/FlipEquivalentBTDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
