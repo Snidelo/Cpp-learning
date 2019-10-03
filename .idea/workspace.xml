@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bad70abe-6cbc-4c1c-afa6-719b99ed66a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/medium/FlipEquivalentBTDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/medium/FlipEquivalentBTDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium/FlipEquivalentBTDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +91,7 @@
       <updated>1569933577598</updated>
       <workItem from="1569933580678" duration="5484000" />
       <workItem from="1569996989968" duration="12199000" />
+      <workItem from="1570113353709" duration="239000" />
     </task>
     <servers />
   </component>

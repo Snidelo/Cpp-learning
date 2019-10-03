@@ -68,6 +68,8 @@ public class FlipEquivalentBTDemo {
         return (flipEquiv_2(root1.left, root2.left) && flipEquiv_2(root1.right, root2.right) ||
                 flipEquiv_2(root1.left, root2.right) && flipEquiv_2(root1.right, root2.left));
     }
+
+    //二叉树的题需要理清思路,找对停止递归的条件
 }
 
 
